@@ -5,6 +5,8 @@
  *
  * @parent: Pointer to the parent node
  * @value: value of n
+ * 
+ * Return: new node
  */
 
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
