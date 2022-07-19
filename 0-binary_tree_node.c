@@ -1,9 +1,11 @@
 #include "binary_trees.h"
 
 /**
- * main - Entry point
+ * binary_tree_node - creates a binary tree node
+ * @parent: head of the tree
+ * @value: number of the node
  *
- * Return: Always 0 (Success)
+ * Return: binary_tree_t node
  */
 
  binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
