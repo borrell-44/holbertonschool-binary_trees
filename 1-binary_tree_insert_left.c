@@ -5,7 +5,7 @@
  *
  * @parent: Pointer to the parent node
  * @value: value of n
- * 
+ *
  * Return: new node
  */
 
@@ -22,7 +22,7 @@ binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 	new->n = value;
 	new->right = NULL;
 	new->parent = parent;
-	
+
 	if (parent->left == NULL)
 	{
 		new->left = NULL;

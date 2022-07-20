@@ -4,7 +4,7 @@
  * binary_tree_delete - deletes an entire binary tree
  *
  * @tree: binary tree head
- * 
+ *
  * Return: nothing
  */
 
