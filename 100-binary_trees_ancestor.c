@@ -38,7 +38,7 @@ const binary_tree_t *second)
 		return (NULL);
 
 	if (first == second)
-		return (NULL);
+		return (first->left->parent);
 
 	f = binary_tree_depth(first);
 	s = binary_tree_depth(second);
