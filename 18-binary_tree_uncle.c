@@ -20,7 +20,7 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node)
 		return (NULL);
 
 	tmp = node;
-	while (tmp->parent != NULL)
+	while (tmp->parent != NULL || num == 2)
 	{
 		num += 1;
 		tmp = tmp->parent;
